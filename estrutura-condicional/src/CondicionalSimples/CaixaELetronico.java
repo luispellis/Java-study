@@ -10,10 +10,13 @@ public class CaixaELetronico {
         double saldo = 25.0;
         double valorSolicitado = 17.0;
 
-        if(valorSolicitado < saldo)
+        if(valorSolicitado < saldo){
             saldo = saldo - valorSolicitado;
 
-            System.out.println(saldo);
+            System.out.println("Novo Saldo: " + saldo);
+        }else 
+            System.out.println(" Saldo Insuficiente");
+        
     }
     
 }
